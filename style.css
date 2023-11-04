@@ -1,0 +1,303 @@
+* {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: url(./images/stylish-swimwear.jpg) no-repeat center center/ cover;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  background-color: rgba(0, 225, 225, 0.3);
+  width: 80%;
+  height: 200px;
+  transform: translate(12%, 50%);
+  margin: 80px 0 0 0;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(12, 11, 11, 5);
+  text-align: center;
+}
+
+.timer {
+  position: relative;
+  width: 80%;
+  /* background-color: blue; */
+  margin: 0 auto 0 auto;
+  font-size: 5rem;
+  padding: 40px 0;
+}
+
+.control {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  top: -30px;
+  margin: 0 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(12, 11, 11, 5);
+  cursor: pointer;
+}
+.control:active {
+  background-color: rgb(175, 172, 179);
+}
+
+
+
+@media (min-width: 0px) and (max-width: 429px) 
+{
+
+  body{
+    background: url(images/luxury-vintage.jpg) no-repeat center center/ cover;
+ box-shadow: 0px 0px 50px rgba(12, 11, 11, 5);
+  }
+}
+
+@media (min-width: 0px) and (max-width: 76px) {
+  .control {
+    width: 1%;
+    height: 19px;
+   
+    background-color: rgba(225, 0, 0, 0.5);
+  }
+
+  .container {
+    /* margin: 150px 0 0 -6%; */
+    height: 80px;
+    width: 90%;
+    margin-left: -6%;
+    border-radius: 10px;
+  }
+
+  .timer {
+    font-size: 10px;
+    margin-top: -16px;
+    font-size: 11px;
+    margin-left: 5%;
+
+  }
+
+  .StartStop {
+    margin-left: -14px;
+  }
+
+}
+
+
+
+@media (min-width: 78px) and (max-width: 85px) {
+  .control {
+    width: 2%;
+    height: 19px;
+    background-color: rgba(225, 0, 0, 0.5);
+  }
+
+  .container {
+    /* margin: 150px 0 0 0; */
+    height: 90px;
+  }
+
+  .timer {
+    font-size: 15px;
+    margin-top: -10px;
+  }
+
+  .StartStop {
+    margin-left: -14px;
+  }
+
+}
+
+@media (min-width: 86px) and (max-width: 101px) {
+  .container {
+    /* margin: 30px 0 0 0; */
+    background-color: rgba(0, 225, 225, 0.4);
+  }
+
+  .container {
+    height: 100px;
+    margin-top: 130px;
+  }
+
+  .control {
+    width: 2%;
+    height: 19px;
+    background-color: rgba(225, 0, 0, 0.5);
+  }
+
+  .StartStop {
+    margin-left: -14px;
+  }
+  .timer {
+    font-size: 16px;
+    margin-top: -8px;
+  }
+}
+
+@media (min-width: 102px) and (max-width: 107px) {
+  .container {
+    /* margin: 30px 0 0 0; */
+    background-color: rgba(0, 225, 225, 0.4);
+  }
+
+  .container {
+    height: 110px;
+    margin-top: 130px;
+  }
+
+  .control {
+    width: 18px;
+    height: 19px;
+  }
+
+  .timer {
+    font-size: 19px;
+    margin-top: -4px;
+  }
+}
+
+@media (min-width: 108px) and (max-width: 118px) {
+  .container {
+    /* margin: 30px 0 0 0; */
+    background-color: rgba(0, 225, 225, 0.4);
+  }
+
+  .container {
+    height: 120px;
+    margin-top: 130px;
+  }
+
+  .control {
+    width: 21px;
+    height: 21px;
+    border-radius: 3px;
+  }
+
+  .timer {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 120px) and (max-width: 159px) {
+  .container {
+    /* margin: 30px 0 0 0; */
+    background-color: rgba(0, 225, 225, 0.4);
+  }
+
+  .container {
+    height: 140px;
+    margin-top: 130px;
+  }
+
+  .control {
+    width: 25px;
+    height: 25px;
+  }
+
+  .timer {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 160px) and (max-width: 294px) {
+  .container {
+    /* margin: 30px 0 0 0; */
+    background-color: rgba(0, 225, 225, 0.4);
+  }
+
+  .container {
+    height: 140px;
+    margin-top: 130px;
+  }
+
+  .control {
+    width: 25px;
+    height: 25px;
+  }
+
+  .timer {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 295px) and (max-width: 320px) {
+  .container {
+    /* margin: 30px 0 0 0; */
+    background-color: rgba(0, 225, 225, 0.4);
+  }
+
+  .timer {
+    font-size: 3.4rem;
+  }
+
+}
+
+@media (min-width: 321px) and (max-width: 428px) {
+  .container {
+    /* margin: 145px 0 0 0; */
+    background-color: rgba(0, 225, 225, 0.4);
+   
+  }
+
+  .timer {
+    font-size: 4rem;
+  }
+
+  .control {
+    box-shadow: 0px 0px 20px rgba(12, 11, 11, 5);
+  }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+  .container {
+    width: 70%;
+    transform: translate(22%, 50%);
+  }
+
+  .timer {
+    font-size: 4rem;
+  }
+
+  .control {
+    box-shadow: 0px 0px 20px rgba(12, 11, 11, 5);
+  }
+}
+
+@media (min-width: 701px) and (max-width: 800px) {
+  .container {
+    width: 60%;
+    transform: translate(34%, 50%);
+    margin-top: 75px;
+  }
+
+  .timer {
+    font-size: 4rem;
+  }
+
+  .control {
+    box-shadow: 0px 0px 20px rgba(12, 11, 11, 5);
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+  .container {
+    width: 50%;
+    transform: translate(50%, 50%);
+  }
+}
+
+@media (min-width: 1001px) {
+  .container {
+    width: 45%;
+    transform: translate(60%, 50%);
+  }
+
+  .timer{
+
+    margin-top: -10px;
+  }
+}
